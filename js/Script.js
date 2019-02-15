@@ -10,6 +10,9 @@ function findoutangle(hypotenuse,opposite,adjacent) {
   }
     else if (hypotenuse===opposite||opposite===adjacent||hypotenuse==adjacent) {
     alert("Isosceles triangle");
-  }}
+  }
+    else {
+    alert("scalene");
 
+}}
   findoutangle(hypotenuse,opposite,adjacent)
