@@ -4,6 +4,23 @@ h1{
 h2{
   text-align: center;
 }
-  .muse{
+.muse{
+    text-align: center;
+    text-decoration-color: blue;
+  }
+.two{
     text-align: center;
   }
+body{
+  background-color: blue;
+  background-image: url("../images/math.jpeg");
+  background-attachment: fixed;
+  font-family: sans-serif;
+  background-size: cover;
+
+}
+img{
+
+
+
+}
