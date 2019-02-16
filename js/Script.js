@@ -10,7 +10,7 @@ var adjacent = parseInt(prompt("adjacent side"));
     else if (hypotenuse === opposite || opposite === adjacent || hypotenuse === adjacent) {
     alert("Isosceles triangle");
   }
-  else if ((hypotenuse + opposite) <= adjacent ||(hypotenuse + adjacent) <= opposite ||(opposite + adjacent) <= hypotenuse) {
+  else if ((hypotenuse + opposite)!=adjacent ||(hypotenuse + adjacent)!= opposite ||(opposite + adjacent)!=hypotenuse) {
     alert("Not a definite angle");
   }
     else {
